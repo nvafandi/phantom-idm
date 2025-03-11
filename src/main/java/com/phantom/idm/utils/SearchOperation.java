@@ -1,0 +1,25 @@
+package com.phantom.idm.utils;
+
+public enum SearchOperation {
+    GREATER_THAN,
+    LESS_THAN,
+    GREATER_THAN_EQUAL,
+    LESS_THAN_EQUAL,
+    NOT_EQUAL,
+    EQUAL,
+    EQUAL_BOOLEAN_TRUE,
+    EQUAL_BOOLEAN_FALSE,
+    MATCH,
+    MATCHITEMS,
+    MATCH_END,
+    GREATER_THAN_EQUAL_DATE,
+    LESS_THAN_DATE,
+    LESS_THAN_EQUAL_DATE,
+    GREATER_THAN_DATE,
+    LESS_THAN_EQUAL_NUMERIC,
+    EQUAL_NUMERIC,
+    IN,
+    ORDERBY_DESC,
+    IS_NOT_NULL,
+    IS_NULL
+}
